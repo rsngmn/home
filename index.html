@@ -112,8 +112,16 @@
   </div>
 <div class="banner">
   <div class="banner-track">
-    <span>Current Target Regime: Eritrea</span>
-    <span>Motive: Target's Government has Committed Crimes Against Humanity</span>
+    <span>Target Regime 1: Eritrea</span>
+    <span>Motive: Crimes Against Humanity</span>
+    <span>Target Regime 2: Tajikistan</span>
+    <span>Motive: Authoritarianism</span>
+    <span>Target Regime 3: Burundi</span>
+    <span>Motive: Authoritarianism</span>
+    <span>Target Regime 4: Zimbabwe</span>
+    <span>Motive: Authoritarian Tendencies, Military Coup</span>
+    <span>Target Regime 5: Belarus</span>
+    <span>Motive: Authoritarianism, Support of Russian Regime</span>
   </div>
 </div>
 
@@ -134,12 +142,12 @@
         subtitleEl.textContent = mottos[index];
         subtitleEl.classList.add("show");
         index = (index + 1) % mottos.length;
-      }, 1000); // matches transition time
+      }, 5000); // matches transition time
     }
 
     // Start cycling
     showMotto();
-    setInterval(showMotto, 12000); // every 4 seconds
+    setInterval(showMotto, 30000);
   </script>
 </body>
 </html>
